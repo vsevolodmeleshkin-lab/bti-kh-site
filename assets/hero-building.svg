@@ -1,0 +1,26 @@
+<svg viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Architectural building illustration">
+  <rect x="80" y="90" width="480" height="430" rx="34" fill="#0d1e3b"/>
+  <rect x="118" y="132" width="404" height="370" rx="24" fill="#172b54"/>
+  <rect x="152" y="182" width="86" height="240" rx="12" fill="#c7a96b" opacity="0.92"/>
+  <rect x="271" y="150" width="170" height="272" rx="12" fill="#f7f3e8" opacity="0.95"/>
+  <rect x="458" y="200" width="56" height="210" rx="10" fill="#f7f3e8" opacity="0.95"/>
+  <path d="M220 182h220" stroke="#c7a96b" stroke-width="6" stroke-linecap="round"/>
+  <path d="M220 238h220" stroke="#c7a96b" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+  <path d="M220 294h220" stroke="#c7a96b" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M220 350h220" stroke="#c7a96b" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+  <rect x="180" y="450" width="280" height="32" rx="12" fill="#c7a96b" opacity="0.92"/>
+  <path d="M272 158v59" stroke="#10213f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M337 158v59" stroke="#10213f" stroke-width="8" stroke-linecap="round"/>
+  <path d="M402 158v59" stroke="#10213f" stroke-width="8" stroke-linecap="round"/>
+  <rect x="214" y="212" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="214" y="266" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="214" y="320" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="292" y="212" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="292" y="266" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="292" y="320" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="370" y="212" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="370" y="266" width="28" height="36" rx="6" fill="#10213f"/>
+  <rect x="370" y="320" width="28" height="36" rx="6" fill="#10213f"/>
+  <path d="M120 100h400" stroke="#c7a96b" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+  <path d="M130 520h380" stroke="#f7f3e8" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+</svg>
