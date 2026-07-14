@@ -78,13 +78,42 @@ img { max-width: 100%; display: block; }
   letter-spacing: 0.08em;
   box-shadow: 0 10px 25px rgba(16, 33, 63, 0.2);
 }
-.site-nav { display: flex; gap: 1.2rem; align-items: center; }
+.site-nav {
+  display: flex;
+  gap: 2.2rem;
+  align-items: center;
+}
 .site-nav a {
   color: var(--muted);
   font-size: 0.95rem;
-  transition: color .2s ease;
+  font-weight: 500;
+  transition: all .25s ease;
+  position: relative;
+  padding: 0.4rem 0;
 }
-.site-nav a:hover, .site-nav a.active { color: var(--navy); }
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold), var(--navy));
+  transition: width .25s ease;
+}
+.site-nav a:hover {
+  color: var(--navy);
+}
+.site-nav a:hover::after {
+  width: 100%;
+}
+.site-nav a.active {
+  color: var(--navy);
+  font-weight: 600;
+}
+.site-nav a.active::after {
+  width: 100%;
+}
 .nav-toggle { display: none; background: none; border: 0; padding: 0.25rem; }
 .nav-toggle span {
   display: block;
